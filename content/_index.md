@@ -1,5 +1,6 @@
----
-title: "Welcome to 0CMS Zola"
----
++++
+title = "Home"
+insert_anchor_links = "right"
++++
 
-This is the homepage of the 0CMS Zola example.
+Welcome to the 0CMS Zola example home page.
