@@ -1,9 +1,9 @@
-baseURL: "/"
-title: "0CMS Zola Example"
-description: "A simple Zola example for 0CMS"
-default_language: "en"
-compile_sass: false
-highlight_code: true
+base_url = "https://megawron.github.io/0cms-example-zola"
+title = "0CMS Zola Example"
+description = "A simple Zola example for 0CMS"
+default_language = "en"
+compile_sass = false
+highlight_code = true
 
 [extra]
-  author = "0CMS"
+author = "0CMS"
