@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | {{ config.title }}</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/" style="color: white; text-decoration: none;">0CMS Zola</a></h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+  <main class="container">
+    {% block content %}{% endblock content %}
+  </main>
+  <footer>
+    <p>&copy; 2026 0CMS Zola Example. Built with Zola.</p>
+  </footer>
+  <script>
+    document.querySelectorAll('.accordion-header').forEach(header => {
+      header.addEventListener('click', () => {
+        header.parentElement.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
